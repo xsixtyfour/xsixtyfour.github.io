@@ -51,23 +51,9 @@ footer { margin-bottom: 20px; }
  */
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
-.menu ul li { 
-    display: inline;  
-    margin-left: 10px; 
-}
-// .menu ul li :first-child {
-//     font-weight: bold;
-//     margin-left: 0px;
-//     float: left;
-// }
+.menu ul li { display: inline;  margin-left: 10px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
-
-.menu-first-child {
-    font-weight: bold;
-    margin-left: 0px !important;
-    float: left;
-}
 
 /**
  * Form
@@ -148,3 +134,25 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
 
+// custom
+
+.menu-first-child {
+    font-weight: bold;
+    margin-left: 0px !important;
+    float: left;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
