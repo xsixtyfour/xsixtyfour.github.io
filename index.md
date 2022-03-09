@@ -5,4 +5,6 @@ permalink: /
 ---
 # EHLO
 
-Welcome to my little corner of the internet. 
+Welcome to my little corner of the internet where I will be sharing my insights and knowledge on topics related to IT and beyond.
+
+
