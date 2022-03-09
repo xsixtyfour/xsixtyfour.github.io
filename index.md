@@ -1,5 +1,5 @@
 ---
-title: [xsixtyfour@home]~$█
+title: xsixtyfour
 layout: home
 permalink: /
 ---
