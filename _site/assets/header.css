@@ -1,0 +1,4 @@
+.menu ul li :first-child {
+    float: left;
+    font: bold;
+}
