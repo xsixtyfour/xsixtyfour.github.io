@@ -11,7 +11,7 @@ permalink: /about/
 <span class="na">DOB</span><span class="pi">:</span> <span class="s">██/██/199█</span>
 <span class="na">sex</span><span class="pi">:</span> <span class="s">M</span>
 <span class="na">place of residence</span><span class="pi">:</span> <span class="s">████████, Netherlands</span>
-<span class="na">profession</span><span class="pi">:</span> <span class="s">██████████</span>
+<span class="na">profession</span><span class="pi">:</span> <span class="s">Systems Engineer</span>
 <span class="na">interests</span><span class="pi">:</span>
  <span class="pi">-</span> <span class="s">InfoSec</span>
  <span class="pi">-</span> <span class="s">CyberSec</span>
@@ -22,9 +22,9 @@ permalink: /about/
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s"><br>cat ~/presentation.txt</span></code></pre></figure>
 
-<p>Hey there. I am a ██ year old guy from Canada based in the Netherlands, known on the internet as x64.
-
-<h2 id="-where-to-find-me">&gt; Where to find me</h2>
+<p>Hey there. I am a ██ year old guy from Canada based in the Netherlands, known on the internet as x64. I'm a privacy and security-focused Systems Engineer by profession, but at home, I'm involved in CTF's, self-hosting and fan of new technology in general. 
+ 
+ <h2 id="-where-to-find-me">&gt; Where to find me</h2>
 <ul>
   <li>Discord: x64#0001</li>
   <li>Telegram: @zer0sixty</li>
