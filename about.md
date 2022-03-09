@@ -22,7 +22,7 @@ permalink: /about/
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s"><br>cat ~/presentation.txt</span></code></pre></figure>
 
-<p>Hey there. I am a ██ year old guy from Canada based in the Netherlands, known on the internet as x64. I'm a privacy and security-focused Systems Engineer by profession, but at home, I'm involved in CTF's, self-hosting and fan of new technology in general. 
+<p>Hey there. I am a ██ year old guy from Canada based in the Netherlands, known on the internet as x64. I'm a privacy and security-focused Systems Engineer by profession, but at home, I'm a self-appointed gray hat hacker that loves OSINT and CTF's. I also love self-hosting and I'm a fan of any new technology that I can get my hands on.
  
  <h2 id="-where-to-find-me">&gt; Where to find me</h2>
 <ul>
