@@ -5,6 +5,6 @@ permalink: /
 ---
 # EHLO
 
-Welcome to my little corner of the internet where I will be sharing my insights and knowledge on topics related to IT and beyond.
+Welcome to my little corner of the internet where I will be sharing my insights and knowledge on topics related to IT, Security and beyond.
 
 
