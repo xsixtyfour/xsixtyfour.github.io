@@ -29,5 +29,6 @@ permalink: /about/
   <li>Discord: x64#0001</li>
   <li>Telegram: @xsixtyfour</li>
   <li>Email: hello@x64.coffee</li>
+ <li>Hackthebox: [x64](https://app.hackthebox.com/profile/123358)</li>
 </ul>
 
