@@ -4,6 +4,7 @@ title:  "Dangling DNS and Subdomain Takeover"
 date:   2022-03-10 13:30:45 +0100
 categories:
 ---
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">cat ~/dangling-dns.yml</span></code></pre>
 <span class="na">> Author</span><span class="pi">:</span> <span class="s">x64</span><br>
 <span class="na">> Inserted on</span><span class="pi">:</span> <span class="s">2022-03-10 12:32:22 +0000</span><br>
