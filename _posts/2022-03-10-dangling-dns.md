@@ -57,9 +57,7 @@ If you'd like to dive even deeper into these topcs, I've outlined some resources
 
 ## How do you identify vulnerable domains?
 
-We can start with enumeration. We need to prepare a subdomain list, and we can do that with Subfinder.
-
-[Subfinder](https://github.com/projectdiscovery/subfinder), is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources. It has a simple modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.
+We can start with enumeration. We need to prepare a subdomain list, and we can do that with [Subfinder](https://github.com/projectdiscovery/subfinder). It's a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources. It has a simple modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.
 
 <br />
 {% highlight vb linenos %}
