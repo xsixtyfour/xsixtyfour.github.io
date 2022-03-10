@@ -27,7 +27,7 @@ permalink: /about/
  <h2 id="-where-to-find-me">&gt; Where to find me</h2>
 <ul>
   <li>Discord: x64#0001</li>
-  <li>Telegram: @zer0sixty</li>
+  <li>Telegram: @xsixtyfour</li>
   <li>Email: hello@x64.coffee</li>
 </ul>
 
