@@ -45,8 +45,8 @@ There is money to be made here by finding domains that can be taken over and rep
 - [Bugcrowd](https://www.bugcrowd.com/)
 - [Intigriti](https://www.intigriti.com/)
 
-## Can you take over?
-We need to identify which services can be taken over. You can find up to date list of services with dangling DNS records at the site below.
+## How do you know if a subdomain can be taken over?
+To identify which services can be taken over. You can find up to date list of services with dangling DNS records at the site below.
 [Github - Ed0verflow](https://github.com/EdOverflow/can-i-take-over-xyz)
 \
 If you'd like to dive even deeper into these topcs, I've outlined some documention by 0xpatrik below. 
