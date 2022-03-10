@@ -68,7 +68,7 @@ subfinder -dL domainlist.txt -o subdomainlist.txt -t 50
 {% endhighlight %}
 
 
-## Check if you can take over
+## Is Subdomain Takeover Possible?
 
 Lets check if it's possible to takeover one of the subdomains from the prepared list. You can manually check using the [dig](https://en.wikipedia.org/wiki/Dig_(command)) command.
 <br />
@@ -102,5 +102,5 @@ Now we need to point this domain to one that we control and create a virtual hos
 
 ## How can you protect your infrastructure?
 
-Microsoft has submitted a guide on [Subdomain Takeover](https://docs.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover) and describes the steps you can take to mitigate against it. 
+Microsoft has released a guide on [Subdomain Takeover](https://docs.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover) and describes the common security threat of subdomain takeover and the steps you can take to mitigate against it.
 
