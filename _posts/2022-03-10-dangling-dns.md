@@ -48,7 +48,7 @@ There is money to be made here by finding domains that can be taken over and rep
 We need to identify which services can be taken over. You can find up to date list of services with dangling DNS records at the site below.
 [Github - Ed0verflow](https://github.com/EdOverflow/can-i-take-over-xyz)
 \
-If you'd like to dive even deeper into these topcs, I can outline some resources below. 
+If you'd like to dive even deeper into these topcs, I've outlined some resources below. 
 
 - [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
 - [Subdomain Takeover: Going beyond CNAME](https://0xpatrik.com/subdomain-takeover-ns/)
