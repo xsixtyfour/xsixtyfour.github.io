@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dangling DNS - Subdomain Takeover"
+title:  "Dangling DNS and Subdomain Takeover"
 date:   2022-03-10 13:30:45 +0100
 categories:
 ---
