@@ -8,8 +8,8 @@ categories:
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">cat ~/dangling-dns.yml</span></code></pre>
 <span class="na">> Author</span><span class="pi">:</span> <span class="s">x64</span><br>
 <span class="na">> Inserted on</span><span class="pi">:</span> <span class="s">2022-03-10 12:32:22 +0000</span><br>
-<span class="na">> Total Words</span><span class="pi">:</span> <span class="s">1042</span><br>
-<span class="na">> Estimated reading time</span><span class="pi">:</span> <span class="s">5 Minutes</span>
+<span class="na">> Total Words</span><span class="pi">:</span> <span class="s">1022</span><br>
+<span class="na">> Estimated reading time</span><span class="pi">:</span> <span class="s">8 Minutes</span>
 </figure>
 ==========================================
 #  What is Dangling DNS?
