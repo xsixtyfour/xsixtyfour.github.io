@@ -11,7 +11,7 @@ permalink: /about/
 <span class="na">DOB</span><span class="pi">:</span> <span class="s">██/██/199█</span>
 <span class="na">sex</span><span class="pi">:</span> <span class="s">M</span>
 <span class="na">place of residence</span><span class="pi">:</span> <span class="s">████████, Netherlands</span>
-<span class="na">profession</span><span class="pi">:</span> <span class="s">Systems Engineer</span>
+<span class="na">profession</span><span class="pi">:</span> <span class="s">Cybersecurity Engineer</span>
 <span class="na">interests</span><span class="pi">:</span>
  <span class="pi">-</span> <span class="s">InfoSec</span>
  <span class="pi">-</span> <span class="s">CyberSec</span>
