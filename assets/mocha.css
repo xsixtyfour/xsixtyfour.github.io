@@ -157,6 +157,9 @@ td {
   font-size: 10px;
   font-weight: 600;
 }
+.status-sep {
+  color: #45475a;
+}
 .status-pill.green { background-color: #a6e3a1; color: #1e1e2e; }
 .status-pill.purple { background-color: #cba6f7; color: #1e1e2e; }
 .status-pill.yellow { background-color: #f9e2af; color: #1e1e2e; }
