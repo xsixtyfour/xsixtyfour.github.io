@@ -7,22 +7,17 @@
   }
 })();
 
-function toggleTheme() {
-  var html = document.documentElement;
-  var current = html.getAttribute('data-theme') || 'dark';
-  var next = current === 'dark' ? 'light' : 'dark';
-  html.setAttribute('data-theme', next);
-  localStorage.setItem('theme', next);
-  var btn = document.querySelector('.theme-toggle');
-  if (btn) {
-    btn.textContent = next === 'dark' ? '☀️' : '🌙';
-  }
-}
-
 document.addEventListener('DOMContentLoaded', function() {
   var btn = document.querySelector('.theme-toggle');
-  if (btn) {
-    var current = document.documentElement.getAttribute('data-theme') || 'dark';
-    btn.textContent = current === 'dark' ? '☀️' : '🌙';
-  }
+  if (!btn) return;
+  var current = document.documentElement.getAttribute('data-theme') || 'dark';
+  btn.textContent = current === 'dark' ? '☀️' : '🌙';
+  btn.addEventListener('click', function() {
+    var html = document.documentElement;
+    var cur = html.getAttribute('data-theme') || 'dark';
+    var next = cur === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
 });
