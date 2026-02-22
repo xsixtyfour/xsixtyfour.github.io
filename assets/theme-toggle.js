@@ -21,3 +21,17 @@ document.addEventListener('DOMContentLoaded', function() {
     btn.textContent = next === 'dark' ? '☀️' : '🌙';
   });
 });
+document.addEventListener('DOMContentLoaded', function() {
+  var scrollBtn = document.getElementById('scroll-top');
+  if (!scrollBtn) return;
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 400) {
+      scrollBtn.classList.add('visible');
+    } else {
+      scrollBtn.classList.remove('visible');
+    }
+  });
+  scrollBtn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
