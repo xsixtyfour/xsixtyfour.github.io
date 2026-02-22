@@ -2,6 +2,7 @@ title: "xsixtyfour@home"
 discord: "@x64"
 description: >-
   Welcome to my corner of the internet. I write about security, occasional rants and whatever else catches my attention.
+image: /og-image.png
 baseurl: ""
 url: "https://x64.coffee"
 header_pages:
