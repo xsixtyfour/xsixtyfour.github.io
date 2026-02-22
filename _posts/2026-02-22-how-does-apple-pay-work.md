@@ -201,7 +201,7 @@ I would recommend the following:
 
 ---
 
-//
+
 **Sources:**
 - *[Apple Platform Security Guide (December 2024)](https://help.apple.com/pdf/security/en_AU/apple-platform-security-guide-x.pdf)*
 - *[Apple Pay Merchant Integration Guide (September 2025)](https://developer.apple.com/apple-pay/Apple-Pay-Merchant-Integration-Guide.pdf)*
