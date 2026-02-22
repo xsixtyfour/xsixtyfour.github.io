@@ -1,100 +1,95 @@
 ---
 ---
+/* ===========================
+   Catppuccin Theme Variables
+   =========================== */
+
+/* Mocha (dark) - default */
+:root, [data-theme="dark"] {
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
+  --ctp-surface0: #313244;
+  --ctp-surface1: #45475a;
+  --ctp-surface2: #585b70;
+  --ctp-text: #cdd6f4;
+  --ctp-subtext0: #a6adc8;
+  --ctp-subtext1: #bac2de;
+  --ctp-overlay0: #6c7086;
+  --ctp-overlay1: #7f849c;
+  --ctp-red: #f38ba8;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+  --ctp-mauve: #cba6f7;
+  --ctp-rosewater: #f5e0dc;
+}
+
+/* Latte (light) */
+[data-theme="light"] {
+  --ctp-base: #eff1f5;
+  --ctp-mantle: #e6e9ef;
+  --ctp-crust: #dce0e8;
+  --ctp-surface0: #ccd0da;
+  --ctp-surface1: #bcc0cc;
+  --ctp-surface2: #acb0be;
+  --ctp-text: #4c4f69;
+  --ctp-subtext0: #6c6f85;
+  --ctp-subtext1: #5c5f77;
+  --ctp-overlay0: #9ca0b0;
+  --ctp-overlay1: #8c8fa1;
+  --ctp-red: #d20f39;
+  --ctp-peach: #fe640b;
+  --ctp-yellow: #df8e1d;
+  --ctp-green: #40a02b;
+  --ctp-teal: #179299;
+  --ctp-blue: #1e66f5;
+  --ctp-lavender: #7287fd;
+  --ctp-mauve: #8839ef;
+  --ctp-rosewater: #dc8a78;
+}
+
+/* ===========================
+   Base Styles
+   =========================== */
 body {
-  background-color: #1e1e2e !important;
-  color: #cdd6f4 !important;
+  background-color: var(--ctp-base) !important;
+  color: var(--ctp-text) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.75 !important;
+  letter-spacing: 0.3px !important;
+  transition: background-color 0.3s, color 0.3s;
 }
 .container {
-  background-color: #1e1e2e !important;
+  background-color: var(--ctp-base) !important;
+  transition: background-color 0.3s;
 }
 a {
-  color: #89b4fa !important;
+  color: var(--ctp-blue) !important;
 }
 a:hover {
-  color: #b4befe !important;
-}
-.menu {
-  border-top-color: #45475a !important;
-  border-bottom-color: #45475a !important;
-}
-.menu ul li a {
-  color: #cdd6f4 !important;
-}
-.menu ul li a:hover {
-  color: #89b4fa !important;
-}
-.menu-first-child span {
-  color: #a6e3a1 !important;
+  color: var(--ctp-lavender) !important;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #cdd6f4 !important;
+  color: var(--ctp-text) !important;
 }
+h1 { font-size: 1.3em !important; }
+h2 { font-size: 1.1em !important; }
 strong, b {
-  color: #f5e0dc !important;
+  color: var(--ctp-rosewater) !important;
 }
-code {
-  background-color: #313244 !important;
-  color: #f38ba8 !important;
+
+/* ===========================
+   Menu / Navigation
+   =========================== */
+.menu {
+  border-top-color: var(--ctp-surface1) !important;
+  border-bottom-color: var(--ctp-surface1) !important;
 }
-pre {
-  background-color: #181825 !important;
-  border-color: #45475a !important;
-}
-pre code {
-  color: #cdd6f4 !important;
-}
-.highlight {
-  background-color: #181825 !important;
-}
-blockquote {
-  border-left-color: #89b4fa !important;
-  color: #bac2de !important;
-}
-hr {
-  border-color: #45475a !important;
-}
-table {
-  border-color: #45475a !important;
-}
-th {
-  background-color: #313244 !important;
-  border-color: #45475a !important;
-  color: #cdd6f4 !important;
-}
-td {
-  border-color: #45475a !important;
-}
-::selection {
-  background-color: #585b70 !important;
-  color: #cdd6f4 !important;
-}
-/* Syntax highlighting - Catppuccin Mocha */
-.highlight .s, .highlight .s1, .highlight .s2 {
-  color: #a6e3a1 !important;
-  background-color: transparent !important;
-}
-.highlight .na {
-  color: #89b4fa !important;
-  background-color: transparent !important;
-}
-.highlight .pi {
-  color: #fab387 !important;
-  background-color: transparent !important;
-}
-.highlight .nn { color: #f9e2af !important; background-color: transparent !important; }
-.highlight .k, .highlight .kd { color: #cba6f7 !important; background-color: transparent !important; }
-.highlight .kt { color: #f9e2af !important; background-color: transparent !important; }
-.highlight .nf { color: #89b4fa !important; background-color: transparent !important; }
-.highlight .nb { color: #f5e0dc !important; background-color: transparent !important; }
-.highlight .nc { color: #f9e2af !important; background-color: transparent !important; }
-.highlight .no { color: #fab387 !important; background-color: transparent !important; }
-.highlight .c, .highlight .c1, .highlight .cm { color: #6c7086 !important; background-color: transparent !important; }
-.highlight .o { color: #94e2d5 !important; background-color: transparent !important; }
-.highlight .p { color: #cdd6f4 !important; background-color: transparent !important; }
-.highlight .m, .highlight .mi, .highlight .mf { color: #fab387 !important; background-color: transparent !important; }
-.highlight .sr, .highlight .ss { color: #a6e3a1 !important; background-color: transparent !important; }
-.highlight .err { color: #f38ba8 !important; background-color: transparent !important; }
-/* Menu layout */
 .menu ul {
   display: flex !important;
   text-align: left !important;
@@ -102,20 +97,111 @@ td {
 .menu ul li.menu-first-child {
   margin-right: auto !important;
 }
-/* Terminal window */
+.menu ul li a {
+  color: var(--ctp-text) !important;
+}
+.menu ul li a:hover {
+  color: var(--ctp-blue) !important;
+}
+.menu-first-child span {
+  color: var(--ctp-green) !important;
+}
+
+/* ===========================
+   Code & Syntax Highlighting
+   =========================== */
+code {
+  background-color: var(--ctp-surface0) !important;
+  color: var(--ctp-red) !important;
+}
+pre {
+  background-color: var(--ctp-mantle) !important;
+  border-color: var(--ctp-surface1) !important;
+}
+pre code {
+  color: var(--ctp-text) !important;
+}
+.highlight {
+  background-color: var(--ctp-mantle) !important;
+}
+.highlight .s, .highlight .s1, .highlight .s2 {
+  color: var(--ctp-green) !important;
+  background-color: transparent !important;
+}
+.highlight .na {
+  color: var(--ctp-blue) !important;
+  background-color: transparent !important;
+}
+.highlight .pi {
+  color: var(--ctp-peach) !important;
+  background-color: transparent !important;
+}
+.highlight .nn { color: var(--ctp-yellow) !important; background-color: transparent !important; }
+.highlight .k, .highlight .kd { color: var(--ctp-mauve) !important; background-color: transparent !important; }
+.highlight .kt { color: var(--ctp-yellow) !important; background-color: transparent !important; }
+.highlight .nf { color: var(--ctp-blue) !important; background-color: transparent !important; }
+.highlight .nb { color: var(--ctp-rosewater) !important; background-color: transparent !important; }
+.highlight .nc { color: var(--ctp-yellow) !important; background-color: transparent !important; }
+.highlight .no { color: var(--ctp-peach) !important; background-color: transparent !important; }
+.highlight .c, .highlight .c1, .highlight .cm { color: var(--ctp-overlay0) !important; background-color: transparent !important; }
+.highlight .o { color: var(--ctp-teal) !important; background-color: transparent !important; }
+.highlight .p { color: var(--ctp-text) !important; background-color: transparent !important; }
+.highlight .m, .highlight .mi, .highlight .mf { color: var(--ctp-peach) !important; background-color: transparent !important; }
+.highlight .sr, .highlight .ss { color: var(--ctp-green) !important; background-color: transparent !important; }
+.highlight .err { color: var(--ctp-red) !important; background-color: transparent !important; }
+
+/* ===========================
+   Blockquotes & Dividers
+   =========================== */
+blockquote {
+  border-left-color: var(--ctp-blue) !important;
+  color: var(--ctp-subtext1) !important;
+}
+hr {
+  border-color: var(--ctp-surface1) !important;
+}
+
+/* ===========================
+   Tables
+   =========================== */
+table {
+  border-color: var(--ctp-surface1) !important;
+}
+th {
+  background-color: var(--ctp-surface0) !important;
+  border-color: var(--ctp-surface1) !important;
+  color: var(--ctp-text) !important;
+}
+td {
+  border-color: var(--ctp-surface1) !important;
+}
+
+/* ===========================
+   Selection
+   =========================== */
+::selection {
+  background-color: var(--ctp-surface2) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* ===========================
+   Terminal Window
+   =========================== */
 .terminal-window {
-  border: 1px solid #45475a;
+  border: 1px solid var(--ctp-surface1);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
+  transition: border-color 0.3s;
 }
 .terminal-bar {
-  background-color: #181825;
+  background-color: var(--ctp-mantle);
   padding: 8px 12px;
   display: flex;
   align-items: center;
   gap: 6px;
-  border-bottom: 1px solid #45475a;
+  border-bottom: 1px solid var(--ctp-surface1);
+  transition: background-color 0.3s;
 }
 .terminal-dot {
   width: 12px;
@@ -123,56 +209,69 @@ td {
   border-radius: 50%;
   display: inline-block;
 }
-.terminal-dot.red { background-color: #f38ba8; }
-.terminal-dot.yellow { background-color: #f9e2af; }
-.terminal-dot.green { background-color: #a6e3a1; }
+.terminal-dot.red { background-color: var(--ctp-red); }
+.terminal-dot.yellow { background-color: var(--ctp-yellow); }
+.terminal-dot.green { background-color: var(--ctp-green); }
 .terminal-title {
-  color: #6c7086;
+  color: var(--ctp-overlay0);
   font-size: 11px;
   margin-left: 8px;
 }
 .terminal-body {
   padding: 15px 20px;
 }
-/* Terminal statusbar */
+
+/* ===========================
+   Terminal Statusbar
+   =========================== */
 .terminal-statusbar {
-  background-color: #181825;
-  border-top: 1px solid #45475a;
-  padding: 4px 12px;
+  background-color: var(--ctp-mantle);
+  border-top: 1px solid var(--ctp-surface1);
+  padding: 6px 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 11px;
   font-family: 'JetBrains Mono', monospace;
+  transition: background-color 0.3s;
 }
 .terminal-statusbar-left,
 .terminal-statusbar-right {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 .status-pill {
   padding: 2px 8px;
-  border-radius: 4px;
+  border-radius: 3px;
   font-size: 10px;
   font-weight: 600;
 }
-.status-sep {
-  color: #45475a;
-}
-.status-pill.green { background-color: #a6e3a1; color: #1e1e2e; }
-.status-pill.purple { background-color: #cba6f7; color: #1e1e2e; }
-.status-pill.yellow { background-color: #f9e2af; color: #1e1e2e; }
-.status-pill.blue { background-color: #89b4fa; color: #1e1e2e; }
+.status-pill.green { background-color: var(--ctp-green); color: var(--ctp-base); }
+.status-pill.purple { background-color: var(--ctp-mauve); color: var(--ctp-base); }
+.status-pill.yellow { background-color: var(--ctp-yellow); color: var(--ctp-base); }
+.status-pill.blue { background-color: var(--ctp-blue); color: var(--ctp-base); }
 .status-text {
-  color: #6c7086;
+  color: var(--ctp-overlay0);
 }
-/* Typography */
-body {
-  font-family: 'Inter', sans-serif !important;
-  font-size: 14px !important;
-  line-height: 1.75 !important;
-  letter-spacing: 0.3px !important;
+.status-sep {
+  color: var(--ctp-surface1);
 }
-h1 { font-size: 1.3em !important; }
-h2 { font-size: 1.1em !important; }
+
+/* ===========================
+   Theme Toggle Button
+   =========================== */
+.theme-toggle {
+  background: var(--ctp-surface0);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 6px;
+  padding: 4px 10px;
+  color: var(--ctp-text);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.theme-toggle:hover {
+  background: var(--ctp-surface1);
+}
