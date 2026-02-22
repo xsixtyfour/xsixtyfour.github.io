@@ -275,3 +275,16 @@ td {
 .theme-toggle:hover {
   background: var(--ctp-surface1);
 }
+[data-theme="light"] body,
+[data-theme="light"] .container,
+[data-theme="light"] p,
+[data-theme="light"] li,
+[data-theme="light"] span {
+  color: #4c4f69 !important;
+}
+[data-theme="light"] .menu-first-child span {
+  color: #40a02b !important;
+}
+[data-theme="light"] .cursor-blink {
+  color: #40a02b !important;
+}
