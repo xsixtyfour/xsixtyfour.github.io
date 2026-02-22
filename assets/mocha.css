@@ -154,8 +154,13 @@ pre code {
    Blockquotes & Dividers
    =========================== */
 blockquote {
-  border-left-color: var(--ctp-blue) !important;
+  border-left: 4px solid var(--ctp-blue) !important;
   color: var(--ctp-subtext1) !important;
+  padding: 12px 20px !important;
+  margin: 20px 0 !important;
+  margin-left: 0 !important;
+  font-style: italic !important;
+  background: transparent !important;
 }
 hr {
   border-color: var(--ctp-surface1) !important;
