@@ -32,7 +32,9 @@ layout: default
   <div class="terminal-statusbar-right">
     <span class="status-pill blue">☕</span>
     <span class="status-sep">│</span>
-    <span class="status-pill yellow">2 posts</span>
+    <span class="status-pill yellow">{{ site.posts.size }} posts</span>
+    <span class="status-sep">│</span>
+    <span class="status-text">{{ site.posts.first.date | date: "%Y-%m-%d" }}</span>
     <span class="status-sep">│</span>
     <span class="status-text">x64.coffee</span>
   </div>
