@@ -323,3 +323,25 @@ td {
 .scroll-top.visible {
   display: flex;
 }
+/* ===========================
+   Mobile Responsiveness
+   =========================== */
+@media (max-width: 600px) {
+  .terminal-statusbar {
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+  .terminal-statusbar-left,
+  .terminal-statusbar-right {
+    gap: 4px;
+  }
+  .scroll-top {
+    bottom: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
