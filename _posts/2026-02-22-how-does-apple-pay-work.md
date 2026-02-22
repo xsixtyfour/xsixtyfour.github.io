@@ -4,7 +4,6 @@ title:  "How Does Apple Pay Work?"
 date:   2026-02-22 00:00:00 +0000
 categories:
 ---
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">cat ~/apple-pay.yml</span></code></pre>
 <span class="na">> Author</span><span class="pi">:</span> <span class="s">x64</span><br>
 <span class="na">> Inserted on</span><span class="pi">:</span> <span class="s">2026-02-21 12:00:00 +0000</span><br>
