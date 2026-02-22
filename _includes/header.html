@@ -1,0 +1,29 @@
+<style>
+.cursor-blink {
+  animation: cursorblink 1s step-end infinite !important;
+}
+@keyframes cursorblink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+</style>
+<header>
+  <div class="menu">
+    <ul>
+      <li class="menu-first-child">
+        <span>
+          [xsixtyfour@home]~$
+          <span class="cursor-blink">
+            █
+          </span>
+        </span>
+      </li>
+      <li>
+        <a href="/">/home</a>
+      </li>
+      <li>
+        <a href="/about/">/about</a>
+      </li>
+    </ul>
+  </div>
+</header>

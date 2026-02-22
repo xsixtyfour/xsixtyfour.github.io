@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="terminal-window">
+<div class="terminal-bar">
+<span class="terminal-dot red"></span>
+<span class="terminal-dot yellow"></span>
+<span class="terminal-dot green"></span>
+<span class="terminal-title">x64@coffee: ~</span>
+</div>
+<div class="terminal-body" markdown="1">
+{{ content }}
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %}
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = "%Y-%m-%d" -%}
+      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+</div>
+<div class="terminal-statusbar">
+  <div class="terminal-statusbar-left">
+    <span class="status-pill green">0</span>
+    <span class="status-text">coffee.local</span>
+  </div>
+  <div class="terminal-statusbar-right">
+    <span class="status-text">zsh</span>
+    <span class="status-pill purple">☕</span>
+    <span class="status-pill yellow">2 posts</span>
+    <span class="status-text">x64.coffee</span>
+  </div>
+</div>
+</div>
