@@ -345,7 +345,8 @@ td {
     font-size: 16px;
   }
   img {
-    max-width: 100% !important;
-    height: auto !important;
+      max-width: 100% !important;
+      width: auto !important;
+      height: auto !important;
   }
 }
